@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorBackgroundRed" format="color" />
+    <attr name="colorTextBackgroundRed" format="color" />
+    <attr name="colorBackgroundWhite" format="color" />
+    <attr name="colorBackgroundCard" format="color" />
+    <attr name="colorButtonRed" format="color" />
+    <attr name="colorTextButtonRed" format="color" />
+    <attr name="colorButtonWhite" format="color" />
+    <attr name="colorTextButtonWhite" format="color" />
+    <attr name="colorTintWhite" format="color" />
+    <attr name="colorTintBlack" format="color" />
+</resources>

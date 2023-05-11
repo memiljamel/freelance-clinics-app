@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="@string/label_account"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:icon="@drawable/ic_baseline_person_24"
+            android:key="@string/key_edit_profile"
+            android:layout="@layout/preferences"
+            android:title="@string/label_edit_profile"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:icon="@drawable/ic_baseline_lock_24"
+            android:key="@string/key_change_password"
+            android:layout="@layout/preferences"
+            android:title="@string/label_change_password"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="@string/label_preferences"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_baseline_bedtime_24"
+            android:key="@string/key_theme"
+            android:layout="@layout/preferences"
+            android:title="@string/label_theme"
+            android:widgetLayout="@layout/preferences_widget_switch"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:key="@string/key_notifications"
+            android:layout="@layout/preferences"
+            android:title="@string/label_notifications"
+            android:widgetLayout="@layout/preferences_widget_switch"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:icon="@drawable/ic_baseline_language_24"
+            android:key="@string/key_locale"
+            android:layout="@layout/preferences"
+            android:title="@string/label_locale"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="@string/label_others"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="@string/key_help_center"
+            android:layout="@layout/preferences"
+            android:title="@string/label_help_center"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="@string/key_service"
+            android:layout="@layout/preferences"
+            android:title="@string/label_service"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="@string/key_policy"
+            android:layout="@layout/preferences"
+            android:title="@string/label_policy"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="@string/key_version"
+            android:layout="@layout/preferences"
+            android:summary="@string/VERSION_NAME"
+            android:title="@string/label_version"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

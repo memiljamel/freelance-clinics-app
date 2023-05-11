@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Clinics App</string>
+
+    <string name="screen_login">Login</string>
+    <string name="screen_register">Register</string>
+    <string name="screen_forgot">Forgot Password</string>
+    <string name="screen_reset">Reset Password</string>
+    <string name="screen_about">About Us</string>
+    <string name="screen_doctor">Doctors</string>
+    <string name="screen_patient">Registration</string>
+    <string name="screen_queue">Waiting List</string>
+    <string name="screen_forms">Treatment History</string>
+    <string name="screen_settings">Settings</string>
+    <string name="screen_profile">Edit Profile</string>
+    <string name="screen_change">Change Password</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_password_confirmation">Confirm Password</string>
+    <string name="label_date_of_birth">Date of Birth (yyyy-MM-dd)</string>
+    <string name="label_address">Address</string>
+    <string name="label_type">Patient</string>
+    <string name="label_general">General</string>
+    <string name="label_jkn">NHI (National Health Insurance)</string>
+    <string name="label_allergy">Allergy</string>
+    <string name="label_status">Status</string>
+    <string name="label_married">I\'m married</string>
+    <string name="label_single">I\'m not married</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+    <string name="label_specialist">Specialist</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="label_account">Account</string>
+    <string name="label_edit_profile">Edit profile</string>
+    <string name="label_change_password">Change password</string>
+    <string name="label_preferences">Preferences</string>
+    <string name="label_theme">Dark theme</string>
+    <string name="label_notifications">Notifications</string>
+    <string name="label_locale">Language</string>
+    <string name="label_others">Others</string>
+    <string name="label_help_center">Help center</string>
+    <string name="label_service">Terms of service</string>
+    <string name="label_policy">Privacy policy</string>
+    <string name="label_version">Version</string>
+    <string name="label_current_password">Current Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_new_password_confirmation">Confirm New Password</string>
+
+    <string name="successful_login_message">Logged in successfully</string>
+    <string name="successful_register_message">Account created successfully</string>
+    <string name="successful_forgot_message">We have emailed your password reset link!</string>
+    <string name="successful_reset_message">Password reset successfully</string>
+    <string name="successful_change_message">Password updated successfully</string>
+    <string name="successful_profile_message">Account updated successfully</string>
+    <string name="successful_logout_message">Logged out successfully</string>
+    <string name="successful_registration_message">Registration created successfully</string>
+
+    <string name="state_empty_title">Data is Empty</string>
+    <string name="state_empty_message">No data to load for you. Save a data and it will show up here.</string>
+    <string name="state_connection_title">Connection Error</string>
+    <string name="state_connection_message">An error has occurred. Please check your connection and try again later.</string>
+
+    <string name="key_edit_profile" translatable="false">edit_profile</string>
+    <string name="key_change_password" translatable="false">change_password</string>
+    <string name="key_theme" translatable="false">theme</string>
+    <string name="key_notifications" translatable="false">notifications</string>
+    <string name="key_locale" translatable="false">locale</string>
+    <string name="key_help_center" translatable="false">help_center</string>
+    <string name="key_service" translatable="false">service</string>
+    <string name="key_policy" translatable="false">policy</string>
+    <string name="key_version" translatable="false">version</string>
+
+    <string name="remember_me">Remember me</string>
+    <string name="have_not_an_account">Don\'t have an account? <u><annotation link="register">Register</annotation></u></string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="instruction_forgot_password">Please enter your email address to search for your account.</string>
+    <string name="instruction_reset_password">Your new password must be different from previous used passwords.</string>
+    <string name="service_and_policy">By register you accept the <font color="#FFE34B36"><u><annotation link="service">Term of Service</annotation></u></font> and <font color="#FFE34B36"><u><annotation link="policy">Privacy Policy</annotation></u></font></string>
+    <string name="welcome_messages">Welcome to the Tenggayun Health Center service system</string>
+    <string name="logout">Logout</string>
+    <string name="attention_change_password">Changing your password will sign you out of all your devices, including your phone.</string>
+    <string name="select_source">Select source</string>
+    <string name="search">Search</string>
+    <string name="download">Download</string>
+
+    <string name="btn_login">Login</string>
+    <string name="btn_forgot">Send Password Reset Link</string>
+    <string name="btn_reset">Reset Password</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_registration">Registration</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="btn_update">Update</string>
+</resources>

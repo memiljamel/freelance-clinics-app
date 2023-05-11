@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html, 
+  body {
+    height: 100%; 
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: rgba(59, 130, 246, 1);
+    text-decoration: underline;
+  }
+
+  .border-black {
+    border-color: rgba(0, 0, 0, 1);
+  }
+
+  .border-white {
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+@layer components {
+  .headline-1 {
+    @apply font-Roboto font-light text-8xl tracking-[-1.5px];
+  }
+
+  .headline-2 {
+    @apply font-Roboto font-light text-6xl tracking-[-0.5px];
+  }
+
+  .headline-3 {
+    @apply font-Roboto font-normal text-5xl tracking-normal;
+  }
+
+  .headline-4 {
+    @apply font-Roboto font-normal text-[34px] leading-[38px] tracking-[0.25px];
+  }
+
+  .headline-5 {
+    @apply font-Roboto font-normal text-2xl tracking-normal;
+  }
+
+  .headline-6 {
+    @apply font-Roboto font-medium text-xl tracking-[0.15px];
+  }
+
+  .subtitle-1 {
+    @apply font-Roboto font-normal text-base tracking-[0.15px];
+  }
+
+  .subtitle-2 {
+    @apply font-Roboto font-medium text-sm tracking-[0.1px];
+  }
+
+  .body-1 {
+    @apply font-Roboto font-normal text-base tracking-[0.5px];
+  }
+
+  .body-2 {
+    @apply font-Roboto font-normal text-sm tracking-[0.25px];
+  }
+
+  .button {
+    @apply font-Roboto font-medium text-sm uppercase tracking-[1.25px];
+  }
+
+  .caption {
+    @apply font-Roboto font-normal text-xs tracking-[0.4px];
+  }
+
+  .overline {
+    @apply font-Roboto font-normal text-[10px] leading-3 uppercase tracking-[1.5px];
+  }
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/Roboto/Roboto-Light.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Roboto/Roboto-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Verdana/Verdana-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Verdana/Verdana-Bold.ttf') format('ttf');
+}

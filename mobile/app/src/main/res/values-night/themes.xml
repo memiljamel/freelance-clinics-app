@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ClinicsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_200</item>
+        <item name="colorPrimaryVariant">@color/red_700</item>
+        <item name="colorOnPrimary">@color/black_900</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red_200</item>
+        <item name="colorSecondaryVariant">@color/red_200</item>
+        <item name="colorOnSecondary">@color/black_900</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorBackgroundRed">@color/background_dark</item>
+        <item name="colorTextBackgroundRed">@color/white_50_alpha_060</item>
+        <item name="colorBackgroundWhite">@color/background_dark</item>
+        <item name="colorBackgroundCard">@color/background_variant_dark</item>
+        <item name="colorButtonRed">@color/red_500</item>
+        <item name="colorTextButtonRed">@color/black_900</item>
+        <item name="colorButtonWhite">@color/red_500</item>
+        <item name="colorTextButtonWhite">@color/black_900</item>
+        <item name="colorTintWhite">@color/red_500</item>
+        <item name="colorTintBlack">@color/white_50_alpha_060</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/background_variant_dark</item>
+        <item name="titleTextColor">@color/white_50</item>
+        <item name="navigationIconTint">@color/white_50</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.ClinicsApp.Toolbar</item>
+        <item name="popupTheme">@style/ThemeOverlay.MaterialComponents.Dark</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.TextInputLayout.Red" parent="Widget.Design.TextInputLayout">
+        <item name="errorTextAppearance">@style/Theme.ClinicsApp.TextInputLayout.Error.Red</item>
+        <item name="hintTextAppearance">@style/Theme.ClinicsApp.TextInputLayout.Hint.Red</item>
+        <item name="passwordToggleTint">@color/white_50_alpha_060</item>
+        <item name="endIconTint">@color/white_50_alpha_060</item>
+        <item name="android:textColorHint">@color/white_50_alpha_038</item>
+    </style>
+
+    <style name="ThemeOverlay.ClinicsApp.TextInputEditText.Red" parent="">
+        <item name="colorSecondary">@color/red_500</item>
+        <item name="editTextBackground">@drawable/ic_edit_text_background</item>
+        <item name="colorControlNormal">@color/white_50_alpha_060</item>
+        <item name="colorControlActivated">@color/red_500</item>
+        <item name="colorControlHighlight">@color/red_200</item>
+        <item name="android:editTextColor">@color/textfield_input_text_color_red</item>
+        <item name="android:editTextBackground">@drawable/ic_edit_text_background</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.TextInputLayout.White" parent="Widget.Design.TextInputLayout">
+        <item name="errorTextAppearance">@style/Theme.ClinicsApp.TextInputLayout.Error.Red</item>
+        <item name="hintTextAppearance">@style/Theme.ClinicsApp.TextInputLayout.Hint.Red</item>
+        <item name="passwordToggleTint">@color/white_50_alpha_060</item>
+        <item name="endIconTint">@color/white_50_alpha_060</item>
+        <item name="android:textColorHint">@color/white_50_alpha_038</item>
+    </style>
+
+    <style name="ThemeOverlay.ClinicsApp.TextInputEditText.White" parent="">
+        <item name="colorSecondary">@color/red_500</item>
+        <item name="editTextBackground">@drawable/ic_edit_text_background</item>
+        <item name="colorControlNormal">@color/white_50_alpha_060</item>
+        <item name="colorControlActivated">@color/red_500</item>
+        <item name="colorControlHighlight">@color/red_200</item>
+        <item name="android:editTextColor">@color/textfield_input_text_color_white</item>
+        <item name="android:editTextBackground">@drawable/ic_edit_text_background</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.CheckBox.Red" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">@color/white_50_alpha_060</item>
+        <item name="android:textSize">16sp</item>
+        <item name="buttonTint">@color/checkbox_button_tint_red</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.ClinicsApp.CheckBox.Red</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.CheckBox.White" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">@color/white_50_alpha_060</item>
+        <item name="android:textSize">16sp</item>
+        <item name="buttonTint">@color/checkbox_button_tint_white</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.ClinicsApp.CheckBox.White</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">@color/white_50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="buttonTint">@color/radiobutton_button_tint</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.ClinicsApp.RadioButton</item>
+    </style>
+
+    <style name="ThemeOverlay.ClinicsApp.Switch" parent="">
+        <item name="android:colorControlActivated">@color/red_500</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.LinearProgressIndicator" parent="Widget.MaterialComponents.LinearProgressIndicator">
+        <item name="indicatorColor">@color/red_500</item>
+        <item name="trackColor">@color/red_200</item>
+    </style>
+
+    <style name="Theme.ClinicsApp.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="indicatorColor">@color/red_500</item>
+    </style>
+
+</resources>

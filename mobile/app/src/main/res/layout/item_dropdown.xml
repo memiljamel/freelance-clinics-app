@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/TextAppearance.MaterialComponents.Body1"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:ellipsize="end"
+    android:textColor="?android:attr/textColorPrimary"
+    android:textSize="14sp"
+    android:gravity="center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:paddingHorizontal="16dp"
+    android:textAppearance="?attr/textAppearanceSubtitle1"
+    tools:text="Item 1" />
