@@ -1,0 +1,1 @@
+Design (Figma): [https://www.figma.com/file/mD4EzhwYIxji6mUZKleUbA/Clinics-App?type=design&node-id=0%3A1&mode=design&t=mSzRr6DRELl8xVGs-1](https://www.figma.com/file/mD4EzhwYIxji6mUZKleUbA/Clinics-App?type=design&node-id=0%3A1&mode=design&t=mSzRr6DRELl8xVGs-1, "Figma URL")
